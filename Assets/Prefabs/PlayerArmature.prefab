@@ -495,6 +495,7 @@ GameObject:
   - component: {fileID: 561680920740729705}
   - component: {fileID: 1421628313443821557}
   - component: {fileID: 3144305591466357666}
+  - component: {fileID: 3561982904725291923}
   m_Layer: 8
   m_Name: PlayerArmature
   m_TagString: Player
@@ -763,6 +764,7 @@ MonoBehaviour:
   NestedObjects: []
   NetworkedBehaviours:
   - {fileID: 1421628313443821557}
+  - {fileID: 3561982904725291923}
   ForceRemoteRenderTimeframe: 0
 --- !u!114 &1421628313443821557
 MonoBehaviour:
@@ -794,6 +796,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GetCamera
   _toFollow: {fileID: 8830983801541820177}
+--- !u!114 &3561982904725291923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779935876866303832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 506319458, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fusion.Runtime.dll::Fusion.NetworkMecanimAnimator
+  Animator: {fileID: 6003433456167873534}
+  ApplyTiming: 0
+  SyncSettings: -1
+  StateHashes: 0000000084ca1cc0f9c6230b1c6a54339e2518b671a7e1076b36dbedb1afdc305a6c54cd
+  TriggerHashes: 00000000
+  TotalWords: 5
 --- !u!1 &1804501069086826557
 GameObject:
   m_ObjectHideFlags: 0
